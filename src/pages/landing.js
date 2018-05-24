@@ -12,6 +12,7 @@ const Landing = (props) => (
         <Helmet>
             <title>Landing - Forty by HTML5 UP</title>
             <meta name="description" content="Landing Page" />
+            <meta name='keywords' content='React, Full-Stack, Web Developer, Redux, Javascript, Free-Lance'/>
         </Helmet>
 
         <BannerLanding />
