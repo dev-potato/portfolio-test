@@ -7,10 +7,13 @@
 /* Footer */
 
 	#footer {
+		background: #EFF0D1;	
+		box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);	
 		.copyright {
 			font-size: 0.8em;
 			list-style: none;
 			padding-left: 0;
+			color: #1F1300;
 
 			li {
 				border-left: solid 1px _palette(border);
@@ -19,11 +22,13 @@
 				line-height: 1;
 				margin-left: 1em;
 				padding-left: 1em;
+				color: #1F1300;
 
 				&:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
+					color: #1F1300;
 				}
 			}
 		}
@@ -36,6 +41,7 @@
 					margin-left: 0;
 					padding-left: 0;
 					line-height: inherit;
+					color: #1F1300;					
 				}
 			}
 		}

@@ -7,48 +7,58 @@
 /* Contact */
 
 	#contact {
+		border-top: solid 1px _palette(border);
 		border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
+		margin: 0, 20px, 0 20px;
+		box-sizing: border-box;
+		background: #EFF0D1;
+		box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
 
-		> .inner {
-			@include vendor('display', 'flex');
-			padding: 0 !important;
+		div {
+			padding-left: 35%;
+			box-sizing: border-box;
+		}
 
-			> :nth-child(2n - 1) {
-				@include padding(4em, 0, (0, 3em, 0, 0));
-				border-right: solid 1px _palette(border);
-				width: 60%;
-			}
+		// > .inner {
+		// 	@include vendor('display', 'flex');
+		// 	padding: 50%;
 
-			> :nth-child(2n) {
-				padding-left: 3em;
-				width: 40%;
-			}
+		// 	> :nth-child(2n - 1) {
+		// 		@include padding(4em, 0, (0, 3em, 0, 0));
+		// 		border-right: solid 1px _palette(border);
+		// 		width: 60%;
+		// 	}
 
-			> .split {
-				padding: 0;
+		// 	> :nth-child(2n) {
+		// 		padding-left: 3em;
+		// 		width: 40%;
+		// 	}
 
-				> * {
-					@include padding(3em, 0, (0, 0, 0, 3em));
-					position: relative;
+			// > .split {
+			// 	padding: 0;
 
-					&:before {
-						border-top: solid 1px _palette(border);
-						content: '';
-						display: block;
-						margin-left: -3em;
-						position: absolute;
-						top: 0;
-						width: calc(100vw + 3em);
-					}
-				}
+			// 	> * {
+			// 		@include padding(3em, 0, (0, 0, 0, 3em));
+			// 		position: relative;
 
-				> :first-child {
-					&:before {
-						display: none;
-					}
-				}
-			}
+			// 		&:before {
+			// 			border-top: solid 1px _palette(border);
+			// 			content: '';
+			// 			display: block;
+			// 			margin-left: -3em;
+			// 			position: absolute;
+			// 			top: 0;
+			// 			width: calc(100vw + 3em);
+			// 		}
+			// 	}
+
+			// 	> :first-child {
+					// &:before {
+					// 	display: none;
+					// }
+				// }
+			// }
 		}
 
 		@include breakpoint(medium) {
@@ -90,4 +100,4 @@
 				}
 			}
 		}
-	}
+	// }

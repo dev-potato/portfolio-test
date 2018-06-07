@@ -13,9 +13,11 @@ class Template extends React.Component {
         super(props)
         this.state = {
             isMenuVisible: false,
-            loading: 'is-loading'
+            loading: 'is-loading',
+            scroll: 'top'
         }
         this.handleToggleMenu = this.handleToggleMenu.bind(this)
+        // this.headerScroll = this.headerScroll.bind(this)
     }
 
     componentDidMount () {
@@ -36,8 +38,31 @@ class Template extends React.Component {
         })
     }
 
+    // headerScroll() {
+    //     let top  = window.pageYOffset
+    //     if( top <= window.pageYOffset ) {
+    //         this.setState({
+    //             scroll: 'show'
+    //         })
+    //       }
+    //     if( top >= window.pageYOffset ) {
+    //         this.setState({
+    //             scroll: 'hide'
+    //         })
+    //     }
+    //       if( top === 0 && this.state.scroll !== 'top') {
+    //         this.setState({
+    //             scroll: 'top'
+    //         })
+    //     }
+    // }
+
     render() {
+
+        console.log(window.pageYOffset)
         const { children } = this.props
+
+        // window.onscroll = this.headerScroll
 
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
@@ -45,7 +70,9 @@ class Template extends React.Component {
                     <link rel="stylesheet" href={withPrefix('skel.css')} />
                 </Helmet>
                 <div id="wrapper">
-                    <Header onToggleMenu={this.handleToggleMenu} />
+                    <Header onToggleMenu={this.handleToggleMenu} 
+                    header={this.state.scroll}
+                    />
                     {children()}
                     <Contact />
                     <Footer />
