@@ -27,13 +27,26 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2 style={{fontWeight: '300', color: '#1F1300'}}>About me.</h2>
                             </header>
-                            <p style={{color: '#1F1300'}}>I'm a coffee fueled JavaScript developer. A world Traveller. A mountain lover. A lifelong learner, and a maker. I hold creating and learning in high regard and when i started to realize what was possible with code, I dove right in and began my journey as a developer.</p>
-                            <p style={{color: '#1F1300'}}>I'm currently situated in the mountains of Utah, but will be relocating to the Canadian rockies shortly, and If the right opportunity came along I would be happy to relocate to pretty much anywhere in the world. Especially if there are mountains. </p>
-                            <p style={{color: '#1F1300'}}>I would like to work on a team surrounded by motivated individuals. I want to help find innovative solutions to real world problems, and i want to do so in a consistant and maintainable way. Thank you for stopping by.</p>
+                                <p style={{color: '#1F1300'}}>
+                                    I am a coffee fueled JavaScript developer. A world traveller. A mountain lover. A lifelong learner, 
+                                    and a maker. I hold creativity and lifelong learning in high regard. When I first realized what was possible 
+                                    with code, I dove right in and began my journey as a developer. I work every day to explore emerging 
+                                    technologies to use in the products I create. I am currently interested in machine learning and 
+                                    improving my skills as a developer.
+                                </p>
+                                <p style={{color: '#1F1300'}}>
+                                    I am currently located in the mountains of Utah, but will be relocating to the Canadian rockies shortly. 
+                                    If the right opportunity comes along I will be happy to relocate anywhere in the world especially if there are mountains. 
+                                </p>
+                                <p style={{color: '#1F1300'}}>
+                                    I would like to work on a team surrounded by other motivated individuals. I want to help find innovative solutions 
+                                    to real world problems, and I want to do so in a consistant and maintainable way. Thank you for stopping by.
+                                </p>
                             
                             <ul className="actions">
-
-                                {/* <li><Link to="/landing" className="button next">Get Started</Link></li> */}
+                                <div>Front End Development</div>
+                                <div>Back End Development</div>
+                                <div></div>                                                                
                             </ul>
                         </div>
                         <div className='inner'>

@@ -8,10 +8,10 @@ const Header = (props) => (
         <nav>
             
             <ul style={{listStyle: 'none', display: 'flex'}} className="menu-link" onClick={props.onToggleMenu} href="javascript:;">
-                <li style={{marginRight: '10px', fontWeight: '300px', color: '#1F1300'}}>About Me</li>
-                <li style={{marginRight: '10px', fontWeight: '300px', color: '#1F1300'}}>Technology</li>
-                <li style={{marginRight: '10px', fontWeight: '300px', color: '#1F1300'}}>Portfolio</li>
-                <li style={{marginRight: '10px', fontWeight: '300px', color: '#1F1300'}}>Connect</li>                                                
+                <li style={{marginRight: '10px', fontWeight: '300px', color: '#EEE5E9'}}>Me.</li>
+                <li style={{marginRight: '10px', fontWeight: '300px', color: '#EEE5E9'}}>Technology.</li>
+                <li style={{marginRight: '10px', fontWeight: '300px', color: '#EEE5E9'}}>Portfolio.</li>
+                <li style={{marginRight: '10px', fontWeight: '300px', color: '#EEE5E9'}}>Connect.</li>                                                
             </ul>
         </nav>
     </header>
