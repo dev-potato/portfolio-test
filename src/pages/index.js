@@ -25,7 +25,7 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2 style={{fontWeight: '300', color: '#1F1300'}}>About me.</h2>
+                                <h2 style={{fontWeight: '300', color: '#1F1300'}}>About Me.</h2>
                             </header>
                                 <p style={{color: '#1F1300'}}>
                                     I am a coffee fueled JavaScript developer. A world traveller. A mountain lover. A lifelong learner, 
