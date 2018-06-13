@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import Menu from '../components/Menu'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import favicon from '../../public/favicon.ico'
 
 class Template extends React.Component {
 
@@ -48,6 +49,7 @@ class Template extends React.Component {
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <Helmet>
                     <link rel="stylesheet" href={withPrefix('skel.css')} />
+                    <link rel='icon' href={favicon} type='image/x-icon'/>
                 </Helmet>
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} 
