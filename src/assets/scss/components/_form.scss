@@ -61,7 +61,7 @@
 	}
 
 	label {
-		color: _palette(fg-bold);
+		color: #1F1300;
 		display: block;
 		font-size: 0.8em;
 		font-weight: _font(weight-bold);
@@ -82,7 +82,7 @@
 		background: _palette(border-bg);
 		border: none;
 		border-radius: 0;
-		color: inherit;
+		color: #1F1300;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -105,7 +105,7 @@
 		position: relative;
 
 		&:before {
-			color: _palette(border);
+			color: #1F1300;
 			content: '\f078';
 			display: block;
 			height: _size(element-height);
@@ -204,7 +204,7 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: _palette(fg-light) !important;
+		color: #1F1300 !important;
 		opacity: 1.0;
 	}
 

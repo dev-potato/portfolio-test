@@ -43,11 +43,11 @@ class HomeIndex extends React.Component {
                                     to real world problems, and I want to do so in a consistant and maintainable way. Thank you for stopping by.
                                 </p>
                             
-                            <ul className="actions">
+                            {/* <ul className="actions">
                                 <div>Front End Development</div>
                                 <div>Back End Development</div>
                                 <div></div>                                                                
-                            </ul>
+                            </ul> */}
                         </div>
                         <div className='inner'>
                         <header className='major'>
@@ -55,8 +55,8 @@ class HomeIndex extends React.Component {
                         </header>
                             <div style={{display: 'flex', flexDirection: 'row'}}>
                                 <ul style={{listStyle: 'none'}}>
-                                    <li><img src={logoTop} /></li>
-                                    <li><img src={logoBottom} /></li>
+                                    <li><img style={{marginLeft: '3.6em'}} src={logoTop} /></li>
+                                    <li><img style={{marginLeft: '3.6em'}} src={logoBottom} /></li>
                                 </ul>
                             </div>
                         </div>

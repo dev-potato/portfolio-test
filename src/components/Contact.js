@@ -1,9 +1,30 @@
 import React from 'react'
+import personal from '../assets/images/personal_project_picture.jpeg'
+import group from '../assets/images/group_project.png'
 
 const Contact = (props) => (
     <section id="contact">
-            <div>Lets work together.</div>
-            <div>nictayt.dev[at]gmail.com</div>
+        <span style={{
+            color: '#1F1300',
+            fontSize: '36px',
+            margin: '3em'
+        }}>My Work.</span>
+                <div style={{
+                    width: '100vw',
+                    
+                }}>
+                <span style={{color: '#1F1300', width: '100%', fontSize: '15px'}}>Only / Once (E-Commerce Clone)</span>
+                <a href="http://206.189.213.146:3131/#/">
+                    <img style={{
+                        height: '16em'
+                    }} src={personal} alt="Personal Project (E-Commerce)"/></a>
+                </div>
+                   <a href="http://206.189.213.146:4000/#/"> <img style={{
+                        marginLeft: '3em',
+                        height: '14em'
+                    }}
+                    src={group} alt="Group Project"/></a>
+                   <span style={{color: '#1F1300'}}>Food-Connect</span>
     </section>
 )
 
