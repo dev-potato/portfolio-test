@@ -14,12 +14,12 @@ const Contact = (props) => (
                     
                 }}>
                 <span style={{color: '#1F1300', width: '100%', fontSize: '15px'}}>Only / Once (E-Commerce Clone)</span>
-                <a href="http://206.189.213.146:3131/#/">
+                <a href="http://clone-once.com/#/">
                     <img style={{
                         height: '16em'
                     }} src={personal} alt="Personal Project (E-Commerce)"/></a>
                 </div>
-                   <a href="http://206.189.213.146:4000/#/"> <img style={{
+                   <a href="https://food-connect.net/#/"> <img style={{
                         marginLeft: '3em',
                         height: '14em'
                     }}
