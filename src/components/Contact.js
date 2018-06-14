@@ -7,16 +7,27 @@ const Contact = (props) => (
         <span style={{
             color: '#1F1300',
             fontSize: '36px',
-            margin: '3em'
+            margin: '3em',
+            marginLeft: '45%',
         }}>My Work.</span>
                 <div style={{
                     width: '100vw',
                     
                 }}>
-                <span style={{color: '#1F1300', width: '100%', fontSize: '15px'}}>Only / Once (E-Commerce Clone)</span>
+                <div style={{
+                    position: 'absolute',
+                    left: '-18em',
+                    color: '#1F1300', 
+                    width: '100%', 
+                    fontSize: '15px',
+                    marginTop: '1em'
+                    }}>
+                    <span style={{textDecoration: 'underline'}}>Only / Once (E-Commerce Clone)</span>
+                    </div>
                 <a href="http://clone-once.com/#/">
                     <img style={{
-                        height: '16em'
+                        height: '16em',
+                        marginLeft: '30%'
                     }} src={personal} alt="Personal Project (E-Commerce)"/></a>
                 </div>
                    <a href="https://food-connect.net/#/"> <img style={{
@@ -24,7 +35,13 @@ const Contact = (props) => (
                         height: '14em'
                     }}
                     src={group} alt="Group Project"/></a>
-                   <span style={{color: '#1F1300'}}>Food-Connect</span>
+                   <span style={{ 
+                       color: '#1F1300',
+                       position: 'absolute',
+                       left: '25em',
+                       textDecoration: 'underline',
+                       marginTop: '1em'
+                }}>Food-Connect</span>
     </section>
 )
 
