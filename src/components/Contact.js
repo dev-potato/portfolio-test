@@ -44,7 +44,7 @@ const Contact = (props) => (
                 style={{
                     textDecoration: 'underline'
                     }}>Food-Connect</span><br/>
-                    <span>https://github.com/ScottWorks/Food-Connect</span><br/>
+                    <span>https://github.com/ScottWorks/Food-Connect</span><br/><br/>
                 </div>
                 </div>
     </section>
