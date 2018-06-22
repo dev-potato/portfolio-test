@@ -35,7 +35,7 @@ const Contact = () => (
                 <span style={{
                     width: '600px',
                     color: '#1F1300'
-                }}>This was my first project. My main focus here was to re-create a fully funcioning 
+                }}>This was my first project. My main focus here was to re-create a fully functioning 
                 E-Commerce website with a pleasant user experience. I wanted to create the UX features 
                 on my own using only React and CSS3 on my front end, built with a Node.js and 
                 postgreSQL backend.</span><br/>
