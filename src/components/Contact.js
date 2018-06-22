@@ -39,7 +39,9 @@ const Contact = () => (
                 E-Commerce website with a pleasant user experience. I wanted to create the UX features 
                 on my own using only React and CSS3 on my front end, built with a Node.js and 
                 postgreSQL backend.</span><br/>
-                <a href="https://github.com/dank-lemonboi/only-once-clone"><span>https://github.com/dank-lemonboi/only-once-clone</span></a>
+                <span> You can visit the site <a href="http://clone-once.com/#/"><span>HERE</span></a><br/>
+                    Or checkout the GitHub repo <a href="https://github.com/dank-lemonboi/only-once-clone"><span>HERE</span></a>
+                    </span>
             </div>
 
             <div
@@ -87,7 +89,9 @@ const Contact = () => (
                     and we provide analytics so the people using the App can see how
                     much food they have saved from the landfill and their accumulated
                     tax savings.</span><br/>
-                    <a href="https://food-connect.net/#/"><span>https://github.com/ScottWorks/Food-Connect</span></a><br/>
+                    <span> You can visit the site <a href="https://food-connect.net/#/"><span>HERE</span></a><br/>
+                    Or checkout the GitHub repo <a href="https://github.com/ScottWorks/Food-Connect"><span>HERE</span></a>
+                    </span>
             </div>
             <div
                 style={{

@@ -55,8 +55,8 @@ class HomeIndex extends React.Component {
                         </header>
                             <div style={{display: 'flex', flexDirection: 'row'}}>
                                 <ul style={{listStyle: 'none'}}>
-                                    <li><img style={{marginLeft: '3.5em'}} src={logoTop} /></li>
-                                    <li><img style={{marginLeft: '3.5em'}} src={logoBottom} /></li>
+                                    <li><img style={{marginLeft: '1em'}} src={logoTop} /></li>
+                                    <li><img style={{marginLeft: '1em'}} src={logoBottom} /></li>
                                 </ul>
                             </div>
                         </div>
