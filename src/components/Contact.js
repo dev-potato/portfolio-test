@@ -2,7 +2,7 @@ import React from 'react'
 import personal from '../assets/images/personal_project_picture.jpeg'
 import group from '../assets/images/group_project.png'
 
-const Contact = (props) => (
+const Contact = () => (
     <section id="contact">
         <span style={{
             color: '#1F1300',
@@ -10,43 +10,98 @@ const Contact = (props) => (
             margin: '3em',
             marginLeft: '45%',
         }}>My Work.</span>
-                <div style={{
-                    width: '100vw',
-                    
-                }}>
-                <div style={{
-                    position: 'absolute',
-                    left: '-18em',
-                    color: '#1F1300', 
-                    width: '100%', 
-                    fontSize: '15px',
-                    marginTop: '1em'
-                    }}>
-                    <span style={{textDecoration: 'underline'}}>Only / Once (E-Commerce Clone)</span><br/>
-                    <span><a href="https://github.com/dank-lemonboi/only-once-clone"></a>https://github.com/dank-lemonboi/only-once-clone</span>
-                    </div>
-                <a href="http://clone-once.com/#/">
-                    <img style={{
-                        height: '16em',
-                        marginLeft: '30%'
-                    }} src={personal} alt="Personal Project (E-Commerce)"/></a>
-                </div>
-                <div>
-                   <a href="https://food-connect.net/#/"> <img style={{
-                        height: '14em',
-                        marginLeft: '-18em'
-                    }}
-                    src={group} alt="Group Project"/></a>
-                   <div style={{ 
-                       color: '#1F1300',
-                       marginLeft: '-2em',
-                }}><span 
+
+         <div style={{
+            width: '100%',
+            display: 'flex',
+            boxSizing: 'border-box',
+            overflow: 'none'
+        }}>
+          <div style={{
+                color: '#1F1300',
+                width: '70%',
+                padding: '0',
+                marginLeft: '-24em'
+                // marginLeft: '-10em',
+                // marginTop: '3em',
+                // paddingRight: '10px',
+            }}>
+
+                <span style={{ 
+                    textDecoration: 'underline',
+                    fontSize: '24px',
+                    color: '#1F1300' }}>Only<span style={{color: 'red'}}>/</span>Once (E-Commerce Clone)</span><br />
+
+                <span style={{
+                    width: '600px',
+                    color: '#1F1300'
+                }}>This was my first project. My main focus here was to re-create a fully funcioning 
+                E-Commerce website with a pleasant user experience. I wanted to create the UX features 
+                on my own using only React and CSS3 on my front end, built with a Node.js and 
+                postgreSQL backend.</span><br/>
+                <a href="https://github.com/dank-lemonboi/only-once-clone"><span>https://github.com/dank-lemonboi/only-once-clone</span></a>
+            </div>
+
+            <div
                 style={{
-                    textDecoration: 'underline'
-                    }}>Food-Connect</span><br/>
-                    <span>https://github.com/ScottWorks/Food-Connect</span><br/><br/>
-                </div>
-                </div>
+                    width: '50%',
+                    marginLeft: '-13.5em'
+                }}
+            >
+                <img style={{
+                    height: '16em',
+                   paddingBottom: '2em'
+                }} src={personal} alt="Personal Project (E-Commerce)" />
+            </div>
+            </div>
+        <div style={{
+            width: '100%',
+            display: 'flex',
+            boxSizing: 'border-box',
+            overflow: 'none'
+        }}>
+        <div style={{
+                color: '#1F1300',
+                width: '70%',
+                padding: '0',
+                marginLeft: '-24em'
+                // marginLeft: '-10em',
+                // marginTop: '3em',
+                // paddingRight: '10px',
+            }}>
+            <span
+                style={{
+                    textDecoration: 'underline',
+                    fontSize: '24px',
+                    color: '#1F1300'
+                }}>Food-Connect</span><br />
+                
+                <span style={{
+                    width: '600px',
+                    color: '#1F1300'
+                }}>The objective of this Application is to help reduce food waste.
+                    Our goal is to provide a simple and effective platform for small
+                    business-owners to easily give their would be waste to pantries
+                    and soup kitchens. Our aim is to provide Tax Documents so the
+                    businesses can receive a charitable donation tax deduction,
+                    and we provide analytics so the people using the App can see how
+                    much food they have saved from the landfill and their accumulated
+                    tax savings.</span><br/>
+                    <a href="https://food-connect.net/#/"><span>https://github.com/ScottWorks/Food-Connect</span></a><br/>
+            </div>
+            <div
+                style={{
+                    width: '50%',
+                    marginLeft: '-16em'
+                }}
+            >
+             <img style={{
+                height: '20em',
+                paddingBottom: '2em'
+            }}
+                src={group} alt="Group Project" />
+         </div>
+        </div>
     </section>
 )
 
