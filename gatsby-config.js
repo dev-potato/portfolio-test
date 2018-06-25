@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Dev-Potato",
     author: "Tayt Low",
-    description: "A --HEAVILY MODIFIED-- Gatsby.js Starter based on Forty by HTML5 UP"
+    description: "Tayt Low | Web Developer"
   },
   pathPrefix: '/',
   plugins: [
