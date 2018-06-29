@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 import background from '../assets/images/NTL-background.png'
-import '../assets/scss/fontStyle.scss'
+import '../assets/scss/iconStyles.scss'
 
 import react from '../assets/images/icons/react.png'
 import redux from '../assets/images/icons/redux.png'
@@ -30,8 +30,6 @@ class HomeIndex extends React.Component {
     render() {
         const siteTitle = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description
-
-        
         return (
             <div>
                 <Helmet>

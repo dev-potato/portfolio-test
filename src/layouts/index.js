@@ -43,8 +43,6 @@ class Template extends React.Component {
     render() {
 
         const { children } = this.props
-
-
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <Helmet>
@@ -54,7 +52,6 @@ class Template extends React.Component {
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} 
                     header={this.state.scroll}
-                    width={window.innerWidth}
                     />
                     {children()}
                     <Contact />

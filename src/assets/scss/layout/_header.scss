@@ -263,3 +263,17 @@
 			}
 		}
 	}
+
+	@media only screen
+	and(max-width: 1000px) {
+		ul {
+			display: none;
+		}
+		.site-nav {
+			ul {
+				li {
+					visibility: hidden;
+				}
+			}
+		}
+	}
