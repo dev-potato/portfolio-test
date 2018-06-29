@@ -31,7 +31,7 @@ class HomeIndex extends React.Component {
         const siteTitle = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description
 
-        let width= window.innerWidth
+        
         return (
             <div>
                 <Helmet>
