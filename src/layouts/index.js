@@ -54,6 +54,7 @@ class Template extends React.Component {
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} 
                     header={this.state.scroll}
+                    width={window.innerWidth}
                     />
                     {children()}
                     <Contact />

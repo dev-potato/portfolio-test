@@ -8,7 +8,7 @@ const Header = (props) => (
         <Link to="/" className="logo"><span style={{marginLeft: '.75em', fontSize: '9em', letterSpacing: '4px', fontWeight: '400'}}>Low.</span></Link>
         <nav>
             {
-                (window.innerWidth < 1000) 
+                (props.width < 1000) 
 
                 ?
             
