@@ -3,8 +3,27 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 import background from '../assets/images/NTL-background.png'
-import logoTop from '../assets/images/logo-top.png'
-import logoBottom from '../assets/images/logo-bottom.png'
+import '../assets/scss/fontStyle.scss'
+
+import react from '../assets/images/icons/react.png'
+import redux from '../assets/images/icons/redux.png'
+import jScript from '../assets/images/icons/javascript.png'
+import html from '../assets/images/icons/html.png'
+import css from '../assets/images/icons/css3-plain.png'
+import node from '../assets/images/icons/nodejs-original.png'
+import postgresql from '../assets/images/icons/postgresql.png'
+import git from '../assets/images/icons/git-original.png'
+import github from '../assets/images/icons/github.png'
+import graphql from '../assets/images/icons/graphql.png'
+import rest from '../assets/images/icons/rest.png'
+import massive from '../assets/images/icons/massive.png'
+import jest from '../assets/images/icons/jest.png'
+import cypress from '../assets/images/icons/cypress.png'
+import DO from '../assets/images/icons/digital-ocean.png'
+import nginx from '../assets/images/icons/nginx-original.png'
+import sass from '../assets/images/icons/sass-original.png'
+import sketch from '../assets/images/icons/sketch-logo.png'
+
 
 
 class HomeIndex extends React.Component {
@@ -49,15 +68,91 @@ class HomeIndex extends React.Component {
                                 <div></div>                                                                
                             </ul> */}
                         </div>
-                        <div className='inner'>
+                        <div className='grid-parent'>
                         <header className='major'>
                             <h1 style={{fontWeight: '300', color: '#1F1300'}}>Technology.</h1>
                         </header>
-                            <div style={{display: 'flex', flexDirection: 'row'}}>
-                                <ul style={{listStyle: 'none'}}>
-                                    <li><img style={{marginLeft: '1em'}} src={logoTop} /></li>
-                                    <li><img style={{marginLeft: '1em'}} src={logoBottom} /></li>
-                                </ul>
+                            <div id='grid-wrapper'>
+                                <div className='image-container'>
+                                    <img src={react}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>React</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={redux}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Redux</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={jScript}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>JavaScript</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={html}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>HTML5</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={css}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>CSS3</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={node}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Node.js</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={rest}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>RESTful API</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={graphql}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>GraphQL</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={massive}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Massive</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={postgresql}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>PostgreSQL</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={jest}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Jest</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={cypress}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Cypress</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img style={{
+                                        position: 'absolute',
+                                        left: '-3em'
+                                    }} src={git}/>
+                                    <img style={{
+                                        zIndex: '2',
+                                        position: 'absolute',
+                                        left: '40px'
+                                    }} src={github}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px', position: 'absolute', bottom: '0'}}>Git/Github</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img style={{
+                                        position: 'absolute',
+                                        top: '30%'
+                                    }}
+                                    src={nginx}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px', position: 'absolute', bottom: '0', left: '1em'}}>NGINX</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={DO}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px', width: '180px', position: 'absolute', bottom: '0'}}>Digital Ocean</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img src={sass}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Sass</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img style={{height: '80px'}} src={sketch}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Sketch</span>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -82,4 +177,7 @@ export const pageQuery = graphql`
     }
 `
 
- 
+ {/* <ul style={{listStyle: 'none'}}>
+                                    <li><img style={{marginLeft: '1em'}} src={logoTop} /></li>
+                                    <li><img style={{marginLeft: '1em'}} src={logoBottom} /></li>
+                                </ul> */}
