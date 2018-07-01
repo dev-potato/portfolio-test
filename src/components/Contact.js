@@ -5,7 +5,6 @@ import group from '../assets/images/group_project.png'
 import '../assets/scss/projectStyle.scss'
 
 
-const width = window.innerWidth
 class Contact extends React.Component {
     constructor(props) {
         super(props);
@@ -16,6 +15,7 @@ class Contact extends React.Component {
     }
     
     componentWillMount() {
+        const width = window.innerWidth
         console.log({width})
         
         if(width < 600){
