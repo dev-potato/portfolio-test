@@ -15,7 +15,7 @@ class Contact extends React.Component {
     }
     
     componentWillMount() {
-        const width = window.innerWidth
+        // const width = window.innerWidth
         console.log({width})
         
         if(width < 600){
