@@ -14,17 +14,17 @@ class Contact extends React.Component {
         }
     }
     
-    componentWillMount() {
-        // const width = window.innerWidth
-        console.log({width})
+    // componentWillMount() {
+    //     // const width = window.innerWidth
+    //     console.log({width})
         
-        if(width < 600){
-            this.setState({
-                mobile: !this.state.mobile
-            })
-        }
-        console.log(this.state.mobile)
-    }
+    //     if(width < 600){
+    //         this.setState({
+    //             mobile: !this.state.mobile
+    //         })
+    //     }
+    //     console.log(this.state.mobile)
+    // }
     render() {
         return(
         <section id="contact">
