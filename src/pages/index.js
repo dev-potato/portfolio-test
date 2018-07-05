@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 import background from '../assets/images/NTL-background.png'
 import '../assets/scss/iconStyles.scss'
+import AOS from 'aos'
 
 import react from '../assets/images/icons/react.png'
 import redux from '../assets/images/icons/redux.png'
@@ -28,6 +29,7 @@ import sketch from '../assets/images/icons/sketch-logo.png'
 
 class HomeIndex extends React.Component {
     render() {
+
         const siteTitle = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description
         return (
