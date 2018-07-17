@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 import background from '../assets/images/NTL-background.png'
 import '../assets/scss/iconStyles.scss'
-import AOS from 'aos'
 
 import react from '../assets/images/icons/react.png'
 import redux from '../assets/images/icons/redux.png'

@@ -23,8 +23,6 @@ class Template extends React.Component {
 
     componentDidMount () {
         
-            AOS.init()
-        
         this.timeoutId = setTimeout(() => {
             this.setState({loading: ''});
         }, 100);
