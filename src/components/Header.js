@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 import Logo from '../assets/images/NTL-badge.png'
 
 const pageHeight = window.innerHeight;
-
 let me = pageHeight * 0.93;
 let tech = pageHeight * 1.58;
 let port = pageHeight * 3.099;
