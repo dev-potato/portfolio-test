@@ -28,10 +28,10 @@ class Template extends React.Component {
         }, 100);
 
         const pageHeight = this.innerHeight;
-        // let me = pageHeight * 0.93;
-        // let tech = pageHeight * 1.58;
-        // let port = pageHeight * 3.099;
-        // let con = pageHeight * 5;
+        let me = pageHeight * 0.93;
+        let tech = pageHeight * 1.58;
+        let port = pageHeight * 3.099;
+        let con = pageHeight * 5;
     }
 
     componentWillUnmount () {
@@ -59,10 +59,10 @@ class Template extends React.Component {
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} 
                      header={this.state.scroll}
-                     me={pageHeight * 0.93;}
-                     tech={pageHeight * 1.58}
-                     port={pageHeight * 3.099}
-                     con={pageHeight * 5}
+                     me={me}
+                     tech={tech}
+                     port={port}
+                     con={con}
                     />
                     {children()}
                     <Contact />
