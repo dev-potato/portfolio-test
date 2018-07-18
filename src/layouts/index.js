@@ -32,11 +32,11 @@ class Template extends React.Component {
     //     let tech = pageHeight * 1.58;
     //     let port = pageHeight * 3.099;
     //     let con = pageHeight * 5;
-    // }
+    }
 
     componentWillUnmount () {
         if (this.timeoutId) {
-            clearTimeout(this.timeoutId);
+            clearTimeout(this.timeoutId)
         }
     }
 
