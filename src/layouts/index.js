@@ -18,7 +18,7 @@ class Template extends React.Component {
             scroll: 'top'
         }
         this.handleToggleMenu = this.handleToggleMenu.bind(this)
-        this.pageHeight = this.pageHeight.bind(this)
+        // this.pageHeight = this.pageHeight.bind(this)
         // this.headerScroll = this.headerScroll.bind(this)
     }
 
