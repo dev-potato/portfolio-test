@@ -54,8 +54,8 @@ class HomeIndex extends React.Component {
                                     improving my skills as a developer.
                                 </p>
                                 <p style={{color: '#1F1300'}}>
-                                    I am currently located in the mountains of Utah, but will be relocating to the Canadian rockies shortly. 
-                                    If the right opportunity comes along I will be happy to relocate anywhere in the world especially if there are mountains. 
+                                    I am currently located in the mountains of Southern Alberta, but I am legal to work anywhere in Canada, and 
+                                    if the right opportunity comes along I will be happy to relocate anywhere in the world especially if there are mountains. 
                                 </p>
                                 <p style={{color: '#1F1300'}}>
                                     I would like to work on a team surrounded by other motivated individuals. I want to help find innovative solutions 
