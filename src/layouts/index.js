@@ -49,14 +49,6 @@ class Template extends React.Component {
                 <Helmet>
                     <link rel="stylesheet" href={withPrefix('skel.css')} />
                     <link rel='icon' href={favicon} type='image/x-icon'/>
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123741652-1"></script>
-                    <script>
-                        {window.dataLayer = window.dataLayer || [];
-                        function gtag() {dataLayer.push(arguments); }
-                        gtag('js', new Date());
-                
-                        gtag('config', 'UA-123741652-1');}
-                    </script>
                 </Helmet>
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} 
