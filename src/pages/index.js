@@ -23,6 +23,9 @@ import DO from '../assets/images/icons/digital-ocean.png'
 import nginx from '../assets/images/icons/nginx-original.png'
 import sass from '../assets/images/icons/sass-original.png'
 import sketch from '../assets/images/icons/sketch-logo.png'
+import auth0 from '../assets/images/icons/auth0-logo.png'
+import mongo from '../assets/images/icons/mongo-logo.png'
+import passport from '../assets/images/icons/passport.js-logo.png'
 
 
 
@@ -152,6 +155,18 @@ class HomeIndex extends React.Component {
                                 <div className='image-container'>
                                     <img style={{height: '80px'}} src={sketch}/>
                                         <span style={{color: 'black', letterSpacing: '1.5px'}}>Sketch</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img style={{height: '80px'}} src={passport}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Passport</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img style={{height: '80px'}} src={auth0}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Auth0</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img style={{height: '100px'}} src={mongo}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}></span>
                                 </div>
                             </div>
                         </div>

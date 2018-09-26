@@ -1,4 +1,4 @@
-3module.exports = {
+module.exports = {
   siteMetadata: {
     title: "Dev-Potato",
     author: "Tayt Low",
