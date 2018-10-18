@@ -3,7 +3,7 @@ module.exports = {
     title: "Dev-Potato: Web-Developer Portfolio.",
     author: "Tayt Low",
     description: "Tayt Low | Web Developer | Portfolio",
-    keywords: "wevdeveloper, Web Developer, Web-Developer, web-developer, Tayt, Tayt Low, portfolio"
+    keywords: "webdeveloper, Web Developer, Web-Developer, web-developer, Tayt, Tayt Low, portfolio, dev-potato, full-stack, full stack web developer, javascript, react, node.js"
   },
   pathPrefix: '/',
   plugins: [
