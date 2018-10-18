@@ -23,7 +23,7 @@ import DO from '../assets/images/icons/digital-ocean.png'
 import nginx from '../assets/images/icons/nginx-original.png'
 import sass from '../assets/images/icons/sass-original.png'
 import sketch from '../assets/images/icons/sketch-logo.png'
-import auth0 from '../assets/images/icons/auth0-logo.png'
+import auth0 from '../assets/images/icons/Auth0-logo.png'
 import mongo from '../assets/images/icons/mongo-logo.png'
 import passport from '../assets/images/icons/passport.js-logo.png'
 
@@ -35,11 +35,12 @@ class HomeIndex extends React.Component {
         const siteTitle = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description
         const keywords = this.props.data.site.siteMetadata.keywords
-        
+
         return (
             <div>
                 <Helmet>
                     <title>{siteTitle}</title>
+                    <meta http-quiv="Content-type" content="text/html; charset=utf-8"/>
                     <meta name="description" content={siteDescription} />
                     <meta name="keywords" content={keywords} />
                 </Helmet>
