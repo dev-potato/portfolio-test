@@ -34,11 +34,14 @@ class HomeIndex extends React.Component {
 
         const siteTitle = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description
+        const keywords = this.props.data.site.siteMetadata.keywords
+        
         return (
             <div>
                 <Helmet>
                     <title>{siteTitle}</title>
                     <meta name="description" content={siteDescription} />
+                    <meta name="keywords" content={keywords} />
                 </Helmet>
 
                 <Banner />
@@ -166,7 +169,7 @@ class HomeIndex extends React.Component {
                                 </div>
                                 <div className='image-container'>
                                     <img style={{height: '100px'}} src={mongo}/>
-                                        <span style={{color: 'black', letterSpacing: '1.5px'}}></span>
+                                        {/* <span style={{color: 'black', letterSpacing: '1.5px'}}></span> */}
                                 </div>
                             </div>
                         </div>
@@ -187,6 +190,7 @@ export const pageQuery = graphql`
             siteMetadata {
                 title
                 description
+                keywords
             }
         }
     }
