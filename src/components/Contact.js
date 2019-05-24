@@ -18,7 +18,7 @@ class Contact extends React.Component {
     render() {
         return(
         <section id="contact">
-            <span className='work-section-title'>My Work.</span>
+            <div className='work-section-title'>My Work.</div>
     
              <div className='project-card-wrapper'>
               <div className='project-card-description'>
@@ -72,7 +72,7 @@ class Contact extends React.Component {
                         <span> You can visit the site <a href="https://enso.digital"><span>HERE</span></a><br/>
                         </span>
                 </div>
-                <div className='image-wrapper'>
+                <div className='image-wrapper scale'>
                  <img src={enso} alt="Group Project" />
                </div>
                
@@ -91,8 +91,8 @@ class Contact extends React.Component {
                         <span> You can visit the site <a href="https://www.paysafe.com/na-en/"><span>HERE</span></a><br/>
                         </span>
                 </div>
-                <div className='image-wrapper'>
-                 <img src={paysafe} alt="Group Project" />
+                <div className='image-wrapper scale'>
+                 <img src={paysafe} alt="Paysafe" />
                </div>
                
             </div>

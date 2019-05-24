@@ -9,10 +9,10 @@ const Header = (props) => (
         <Link to="/" className="logo"><span style={{marginLeft: '.75em', fontSize: '9em', letterSpacing: '4px', fontWeight: '400'}}>Low.</span></Link>
         <nav className='site-nav'>
             <ul style={{listStyle: 'none', display: 'flex'}}>
-                <li onClick={ () => window.scrollTo(0, 560)} id='nav-link'>Me.</li>
-                <li onClick={ () => window.scrollTo(0, 990)} id='nav-link'>Technology.</li>
-                <li onClick={ () => window.scrollTo(0, 1940)} id='nav-link'>Portfolio.</li>
-                <li onClick={ () => window.scrollTo(0, 3000)} id='nav-link'>Connect.</li>                                                
+                <li onClick={ () => window.scrollTo(0, document.querySelector(".about-me").offsetTop - 180)} id='nav-link'>Me.</li>
+                <li onClick={ () => window.scrollTo(0, 1200)} id='nav-link'>Technology.</li>
+                <li onClick={ () => window.scrollTo(0, document.querySelector('.work-section-title').offsetTop - 100)} id='nav-link'>Portfolio.</li>
+                <li onClick={ () => window.scrollTo(0, document.body.scrollHeight)} id='nav-link'>Connect.</li>                                                
             </ul>
         </nav>
     </header>

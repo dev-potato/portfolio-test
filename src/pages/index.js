@@ -26,6 +26,8 @@ import sketch from '../assets/images/icons/sketch-logo.png'
 import auth0 from '../assets/images/icons/Auth0-logo.png'
 import mongo from '../assets/images/icons/mongo-logo.png'
 import passport from '../assets/images/icons/passport.js-logo.png'
+import angular from '../assets/images/icons/AngularJS-Shield.svg'
+import grails from '../assets/images/icons/grails.png';
 
 
 
@@ -53,6 +55,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2 style={{fontWeight: '300', color: '#1F1300'}}>About Me.</h2>
                             </header>
+                            <div className="about-me">
                                 <p style={{color: '#1F1300'}}>
                                     I am a coffee fueled JavaScript developer. A world traveller. A mountain lover. A lifelong learner, 
                                     and a maker. I hold creativity and lifelong learning in high regard. When I first realized what was possible 
@@ -68,6 +71,7 @@ class HomeIndex extends React.Component {
                                     I would like to work on a team surrounded by other motivated individuals. I want to help find innovative solutions 
                                     to real world problems, and I want to do so in a consistant and maintainable way. Thank you for stopping by.
                                 </p>
+                            </div>
                             
                             {/* <ul className="actions">
                                 <div>Front End Development</div>
@@ -152,17 +156,17 @@ class HomeIndex extends React.Component {
                                     <img src={DO}/>
                                         <span style={{color: 'black', letterSpacing: '1.5px', width: '180px', position: 'absolute', bottom: '0'}}>Digital Ocean</span>
                                 </div>
-                                <div className='image-container'>
+                                <div className='image-container sass'>
                                     <img src={sass}/>
-                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Sass</span>
+                                        <span style={{color: 'black', letterSpacing: '1.5px', marginTop: '3rem'}}>Sass</span>
                                 </div>
-                                <div className='image-container'>
+                                <div className='image-container sass'>
                                     <img style={{height: '80px'}} src={sketch}/>
-                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Sketch</span>
+                                        <span style={{color: 'black', letterSpacing: '1.5px', marginTop: '3rem'}}>Sketch</span>
                                 </div>
-                                <div className='image-container'>
+                                <div className='image-container sass'>
                                     <img style={{height: '80px'}} src={passport}/>
-                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Passport</span>
+                                        <span style={{color: 'black', letterSpacing: '1.5px', marginTop: '3rem'}}>Passport</span>
                                 </div>
                                 <div className='image-container'>
                                     <img style={{height: '80px'}} src={auth0}/>
@@ -171,6 +175,14 @@ class HomeIndex extends React.Component {
                                 <div className='image-container'>
                                     <img style={{height: '100px'}} src={mongo}/>
                                         {/* <span style={{color: 'black', letterSpacing: '1.5px'}}></span> */}
+                                </div>
+                                <div className='image-container'>
+                                    <img style={{height: '80px'}} src={angular}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Angular</span>
+                                </div>
+                                <div className='image-container'>
+                                    <img style={{height: '80px'}} src={grails}/>
+                                        <span style={{color: 'black', letterSpacing: '1.5px'}}>Grails</span>
                                 </div>
                             </div>
                         </div>
