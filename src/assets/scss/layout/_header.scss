@@ -277,3 +277,14 @@
 			}
 		}
 	}
+
+	#nav-link {
+		margin-right: 10px; 
+		font-weight: 300px; 
+		color: #EEE5E9;
+	
+		&:hover {
+			cursor: pointer;
+			color: _palette(highlight) !important;
+		}
+	}
